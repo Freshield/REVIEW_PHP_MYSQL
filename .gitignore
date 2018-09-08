@@ -35,3 +35,8 @@ log
 *.wav
 *.mp3
 *.ogg
+*.jpg
+*.gif
+*.png
+*.jpeg
+*.sql
