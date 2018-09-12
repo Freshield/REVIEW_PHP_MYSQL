@@ -5,7 +5,7 @@
       <paths name="study">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/media/freshield/YYSPACE/REVIEW_PHP_MYSQL/chp1" />
+            <mapping deploy="/var/www/html/REVIEW_PHP_MYSQL/chp1" local="$PROJECT_DIR$" web="REVIEW_PHP_MYSQL/chp1" />
           </mappings>
         </serverdata>
       </paths>
