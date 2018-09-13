@@ -21,9 +21,12 @@
     $email = $_POST['email'];
     $how_many = $_POST['howmay'];
     $name = $_POST['firstname'] . '' . $_POST['lastname'];
+    $first_name = $_POST['firstname'];
+    $last_name = $_POST['lastname'];
     $what_they_did = $_POST['whattheydid'];
     $other = $_POST['other'];
 
+    /*
     $msg = "$name was abducted $when_it_happened and was gone for $how_long.\n" .
         "Number of aliens: $how_many\n" .
         "Alien description: $alien_description\n" .
@@ -33,6 +36,24 @@
     $to = 'yangyufresh@163.com';
     $subject = 'Aliens Abducted Me - Abduction Report';
     mail($to, $subject, $msg, 'From:'.$email);
+    */
+    $dbc = mysqli_connect(
+            'localhost', 'root', '8888',
+        'aliendatabase') or die('Error connecting to MySQL server');
+
+    $query = "INSERT INTO aliens_abduction (first_name, last_name, " .
+        "when_it_happened, how_long, how_many, alien_description, " .
+        "what_they_did, fang_spotted, other, email) " .
+        "VALUES('$first_name', '$last_name', '$when_it_happened', " .
+        "'$how_long', '$how_many', '$alien_description', '$what_they_did', " .
+        "'$fang_spotted', '$other', '$email' )";
+
+    #echo "$query";
+
+    $result = mysqli_query($dbc, $query)
+        or die('Error querying database.');
+
+    mysqli_close($dbc);
 
     echo 'Thanks for submitting the form lol ahah.<br />';
     echo 'You were abducted ' . $when_it_happened;
