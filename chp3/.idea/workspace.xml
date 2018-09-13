@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56329915-5122-4620-90a7-a46d8d4e70d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp1/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="56329915-5122-4620-90a7-a46d8d4e70d4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +12,7 @@
     <session id="1599011300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
@@ -159,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536810364951</updated>
       <workItem from="1536810366119" duration="1619000" />
-      <workItem from="1536820288038" duration="3235000" />
+      <workItem from="1536820288038" duration="3318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4854000" />
+    <option name="totallyTimeSpent" value="4937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="667" width="1297" height="777" extended-state="6" />
