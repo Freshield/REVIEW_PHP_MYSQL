@@ -1,0 +1,19 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: freshield
+ * Date: 18-9-28
+ * Time: 下午8:28
+ */
+if (isset($_REQUEST['place'])) {
+    $place = $_REQUEST['place'];
+    $query = $_REQUEST['query'];
+
+    $query = str_replace('*', 'dicom_instance_path', $query);
+    $python_file = 'b7_download_script.py';
+    $shell_query = "python '$python_file' '$place' '$query'";
+    $output = shell_exec($shell_query);
+
+}
+
+?>

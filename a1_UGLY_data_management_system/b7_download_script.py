@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #coding=utf-8
 """
 @Author: Freshield
@@ -18,26 +19,54 @@
 import os
 import sys
 import time
-import yy_lib as yy
+from s1_helpers import *
 
 root_dir = '/media/freshield/'
+data_root_dir = '/media/freshield/YYSPACE/TEST_CSV'
 
-# if len(sys.argv) == 3:
-#     path_of_disk = sys.argv[1]
-#     query = sys.argv[2]
-# else:
-#     raise ('parameter number is wrong...')
+print('here1')
 
-path_of_disk = 'YYSPACE'
-query = ''
-print(path_of_disk)
-print(query)
+if len(sys.argv) == 3:
+    path_of_disk = sys.argv[1]
+    query = sys.argv[2]
+else:
+    raise ('parameter number is wrong...')
+
+# path_of_disk = 'YYSPACE'
+# query = ''
+# print(path_of_disk)
+#
+# table_name = 'data_db_v1'
+# condition = 'Heart=True and Brain=True and Liver=True'
+# query = 'select dicom_instance_path from %s where %s'%(table_name,condition)
+# print(query)
 
 date = time.strftime("%Y%m%d", time.localtime())
 save_dir = os.path.join(root_dir,path_of_disk,'SELECTED_DATA_%s'%date)
 
 print(save_dir)
-yy.io.judge_mkdir(save_dir)
 
+judge_mkdir(save_dir)
+
+series_path_list = get_dicom_instance_path_from_query(query)
+
+total_res_number = len(series_path_list)
+
+for i in range(len(series_path_list)):
+    series_path = series_path_list[i]
+    word = '%d/%d copying... %s'%(i,total_res_number,series_path)
+    print(word)
+
+    insert_log_into_db(word)
+    temp_root_dir = judge_add_os_sep(data_root_dir)
+    temp_save_dir = judge_add_os_sep(save_dir)
+    save_path = series_path.replace(temp_root_dir, temp_save_dir)
+    save_path = judge_add_os_sep(save_path)
+    save_path = os.sep.join(save_path.split(os.sep)[:-2])
+    print(save_path)
+    judge_del_copy_dir(series_path, save_path)
+
+
+insert_log_into_db('Done copy data')
 
 

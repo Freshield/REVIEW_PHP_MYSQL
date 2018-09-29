@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2fc49c2-c913-4738-a0e2-88a0d34d794d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b2_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/b2_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b6_download.php" beforeDir="false" afterPath="$PROJECT_DIR$/b6_download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b7_download_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/b7_download_script.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ajax_sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax_sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chp5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,43 +20,48 @@
     <session id="-1961064036">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="247" />
+          <entry key="css" value="283" />
           <entry key="html" value="596" />
-          <entry key="php" value="2337" />
-          <entry key="py" value="80" />
+          <entry key="js" value="371" />
+          <entry key="php" value="2911" />
+          <entry key="py" value="626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="247" />
+          <entry key="CSS" value="283" />
           <entry key="HTML" value="598" />
-          <entry key="PHP" value="2335" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="JavaScript" value="371" />
+          <entry key="PHP" value="2909" />
+          <entry key="PLAIN_TEXT" value="626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="9" />
-          <entry key="html" value="8" />
-          <entry key="php" value="20" />
-          <entry key="py" value="7" />
+          <entry key="css" value="11" />
+          <entry key="html" value="13" />
+          <entry key="js" value="3" />
+          <entry key="php" value="41" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="8" />
-          <entry key="PHP" value="20" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="13" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PHP" value="41" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -59,28 +69,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/b7_download_script.py">
+        <entry file="file://$PROJECT_DIR$/b6_download.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/b4_helper.php">
+        <entry file="file://$PROJECT_DIR$/b6_download.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="700" column="33" lean-forward="true" selection-start-line="700" selection-start-column="33" selection-end-line="700" selection-end-column="33" />
+            <state relative-caret-position="576">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/b6_download.php">
+        <entry file="file://$PROJECT_DIR$/b6_run_script.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="192">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,8 +107,15 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>yy</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -115,12 +136,24 @@
         <option value="$PROJECT_DIR$/b3_test_echo.php" />
         <option value="$PROJECT_DIR$/test/t2_test_show_dirs.php" />
         <option value="$PROJECT_DIR$/b1_test_select.html" />
-        <option value="$PROJECT_DIR$/b2_style.css" />
         <option value="$PROJECT_DIR$/b5_get_place.py" />
         <option value="$PROJECT_DIR$/b4_helper.php" />
         <option value="$PROJECT_DIR$/b2_test_php_shower.php" />
-        <option value="$PROJECT_DIR$/b6_download.php" />
+        <option value="/media/freshield/YYSPACE/YY_LIB/yy_lib/io_ops/os_ops.py" />
+        <option value="$PROJECT_DIR$/test/t9_makedir.php" />
+        <option value="$PROJECT_DIR$/test/t10_copytree.py" />
+        <option value="$PROJECT_DIR$/s1_helpers.py" />
         <option value="$PROJECT_DIR$/b7_download_script.py" />
+        <option value="$PROJECT_DIR$/test/t11_test_get_db_timely.php" />
+        <option value="$PROJECT_DIR$/test/t11_getDetails.php" />
+        <option value="$PROJECT_DIR$/test/t11_clean_db.php" />
+        <option value="$PROJECT_DIR$/b6_get_details.php" />
+        <option value="$PROJECT_DIR$/b6_clean_db.php" />
+        <option value="$PROJECT_DIR$/test/t11_test_get_db_timely.js" />
+        <option value="$PROJECT_DIR$/b2_style.css" />
+        <option value="$PROJECT_DIR$/b6_download.php" />
+        <option value="$PROJECT_DIR$/b6_run_script.php" />
+        <option value="$PROJECT_DIR$/b6_download.js" />
       </list>
     </option>
   </component>
@@ -132,10 +165,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1433" />
-    <option name="y" value="-4" />
-    <option name="width" value="1015" />
-    <option name="height" value="1924" />
+    <option name="x" value="1432" />
+    <option name="y" value="-11" />
+    <option name="width" value="1017" />
+    <option name="height" value="1932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -145,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,17 +186,21 @@
               <item name="a1_UGLY_data_management_system" type="b2602c69:ProjectViewProjectNode" />
               <item name="a1_UGLY_data_management_system" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="a1_UGLY_data_management_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="a1_UGLY_data_management_system" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/media/freshield/YYSPACE/Linkingmed_HT/Codes_HT/Linkingmed/22_heart_four_organs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chp3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -186,20 +224,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.b4_helper.php">
+  <component name="RunManager" selected="JavaScript Debug.b6_run_script.php">
     <configuration name="b4_helper.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/REVIEW_PHP_MYSQL/a1_UGLY_data_management_system/b4_helper.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="b6_run_script.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/REVIEW_PHP_MYSQL/a1_UGLY_data_management_system/b6_run_script.php">
       <method v="2" />
     </configuration>
     <configuration name="t2_test_show_dirs.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/REVIEW_PHP_MYSQL/a1_UGLY_data_management_system/test/t2_test_show_dirs.php">
       <method v="2" />
     </configuration>
-    <configuration name="b4_helper.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/b4_helper.php">
-      <method v="2" />
-    </configuration>
     <configuration name="t2_test_show_dirs.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test/t2_test_show_dirs.php">
       <method v="2" />
     </configuration>
-    <configuration name="b5_get_place" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b7_download_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="a1_UGLY_data_management_system" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,20 +250,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b5_get_place.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b7_download_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.b4_helper.php" />
       <item itemvalue="PHP Script.t2_test_show_dirs.php" />
       <item itemvalue="JavaScript Debug.t2_test_show_dirs.php" />
       <item itemvalue="JavaScript Debug.b4_helper.php" />
+      <item itemvalue="JavaScript Debug.b6_run_script.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.b6_run_script.php" />
         <item itemvalue="JavaScript Debug.b4_helper.php" />
         <item itemvalue="JavaScript Debug.t2_test_show_dirs.php" />
       </list>
@@ -250,22 +289,24 @@
       <workItem from="1538139218105" duration="254000" />
       <workItem from="1538139963961" duration="286000" />
       <workItem from="1538140634262" duration="533000" />
+      <workItem from="1538210500053" duration="518000" />
+      <workItem from="1538211396906" duration="2906000" />
+      <workItem from="1538214328408" duration="12815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31396000" />
+    <option name="totallyTimeSpent" value="47635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1433" y="-4" width="1015" height="1924" extended-state="6" />
-    <editor active="true" />
+    <frame x="1432" y="-11" width="1017" height="1932" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14226376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23156802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31333333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,34 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/t1_test_select_dir.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/t8_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/t1_test_select_dir.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/t8_test_php_shower.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12960">
-          <caret line="545" column="43" selection-start-line="545" selection-start-column="43" selection-end-line="545" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/b1_test_select.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="778">
@@ -356,20 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/t2_test_show_dirs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/t5_show_dirs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/t7_test_select.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4466">
@@ -377,59 +376,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b1_test_select.html">
+    <entry file="file:///media/freshield/YYSPACE/YY_LIB/yy_lib/io_ops/os_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        <state relative-caret-position="2808">
+          <caret line="117" column="16" lean-forward="true" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/t6_example.py">
+    <entry file="file:///media/freshield/YYSPACE/YY_LIB/yy_lib/assert_ops/assertor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="12408">
+          <caret line="517" lean-forward="true" selection-start-line="506" selection-end-line="517" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b2_style.css">
+    <entry file="file://$PROJECT_DIR$/test/t8_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="192">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b5_get_place.py">
+    <entry file="file://$PROJECT_DIR$/test/t1_test_select_dir.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="20" lean-forward="true" selection-start-line="18" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b2_test_php_shower.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="255" column="67" selection-start-line="255" selection-start-column="67" selection-end-line="255" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b7_download_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b6_download.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/b4_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="700" column="33" lean-forward="true" selection-start-line="700" selection-start-column="33" selection-end-line="700" selection-end-column="33" />
+        <state relative-caret-position="16170">
+          <caret line="735" column="24" selection-start-line="735" selection-start-column="14" selection-end-line="735" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t1_test_select_dir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t2_test_show_dirs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t8_test_php_shower.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12960">
+          <caret line="545" column="43" selection-start-line="545" selection-start-column="43" selection-end-line="545" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b2_test_php_shower.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="255" column="67" selection-start-line="255" selection-start-column="67" selection-end-line="255" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t6_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b5_get_place.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t9_makedirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t5_show_dirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t10_copytree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s1_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="85" column="40" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b7_download_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1370">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t9_makedir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t11_test_get_db_timely.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="76" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="76" />
+          <folding>
+            <element signature="e#241#324#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t11_getDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="2" lean-forward="true" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t11_clean_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="2" lean-forward="true" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1_test_select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t11_test_get_db_timely.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b2_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b6_clean_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b6_get_details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b6_run_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b6_download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b6_download.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
