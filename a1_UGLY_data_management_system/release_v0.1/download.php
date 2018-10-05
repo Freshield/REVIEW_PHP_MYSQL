@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>TEST select</title>
-    <link rel="stylesheet" type="text/css" href="b2_style.css" />
-    <script src="b6_download.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="select_style.css" />
+    <script src="download_control.js" type="text/javascript"></script>
 </head>
 <body>
 <h1 id="header">CRYING UGLY DATA MANAGEMENT SYSTEM</h1>

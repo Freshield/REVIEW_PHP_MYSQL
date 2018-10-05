@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+#header {
+    font-family: monospace;
+}
+
+th {
+    line-height: 40px;
+}
+
+#dicom_spacing {
+    min-width: 300px;
+}
+
+#dicom_table {
+    width: 95%;
+    height: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+}
