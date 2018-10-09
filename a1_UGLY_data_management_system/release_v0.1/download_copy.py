@@ -19,10 +19,12 @@
 import os
 import sys
 import time
+sys.path.append('.')
 from script_helper import *
 
+print('here0')
 root_dir = '/media/freshield/'
-data_root_dir = '/media/freshield/YYSPACE/TEST_CSV'
+data_root_dir = '/media/freshield/DATA/TEST_CSV'
 
 if len(sys.argv) == 3:
     path_of_disk = sys.argv[1]
@@ -30,6 +32,7 @@ if len(sys.argv) == 3:
 else:
     raise ('parameter number is wrong...')
 
+print('here1')
 # path_of_disk = 'YYSPACE'
 # query = ''
 # print(path_of_disk)

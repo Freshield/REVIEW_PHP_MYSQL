@@ -24,6 +24,7 @@ if (isset($_POST['submit'])) {
 
     echo "<div id=\"place\" style='display: none'>$place</div>";
     echo "<div id=\"query\" style='display: none'>$query</div>";
+    echo "<div id=\"unmount\"></div>";
 
 
 }

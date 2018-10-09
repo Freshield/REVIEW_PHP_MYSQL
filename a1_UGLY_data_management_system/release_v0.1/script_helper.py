@@ -16,7 +16,6 @@
 @                                    Freshield @
 @==============================================@
 """
-
 import os
 import shutil
 import inspect
@@ -87,8 +86,8 @@ def judge_del_copy_dir(old_dir, new_dir):
 
     print('here4')
     try:
-        os.system('mkdir -p %s'%(new_dir))
-        os.system('cp -r %s %s'%(old_dir, new_dir))
+        os.system(r'mkdir -p "%s"'%(new_dir))
+        os.system(r'cp -r "%s" "%s"'%(old_dir, new_dir))
     except OSError as e:
         print('OSError',e)
     except shutil.Error as e:

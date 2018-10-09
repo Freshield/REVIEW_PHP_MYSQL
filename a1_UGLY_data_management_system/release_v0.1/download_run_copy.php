@@ -11,8 +11,12 @@ if (isset($_REQUEST['place'])) {
 
     $query = str_replace('*', 'dicom_instance_path', $query);
     $python_file = 'download_copy.py';
-    $shell_query = "python '$python_file' '$place' '$query'";
+    $shell_query = "/home/freshield/anaconda3/bin/python '$python_file' '$place' '$query'";
     $output = shell_exec($shell_query);
+
+//    echo $shell_query . '<br>';
+//    echo 'temp<br>';
+//    echo $output . '<br>';
 
 }
 
