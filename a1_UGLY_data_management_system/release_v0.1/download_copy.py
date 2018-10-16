@@ -19,10 +19,12 @@
 import os
 import sys
 import time
+sys.path.append('.')
 from script_helper import *
 
+print('here0')
 root_dir = '/media/freshield/'
-data_root_dir = '/media/freshield/YYSPACE/TEST_CSV'
+data_root_dir = '/media/freshield/New_Data_2T/Data_From_Diff_Hospital_csv/'
 
 if len(sys.argv) == 3:
     path_of_disk = sys.argv[1]
@@ -30,6 +32,7 @@ if len(sys.argv) == 3:
 else:
     raise ('parameter number is wrong...')
 
+print('here1')
 # path_of_disk = 'YYSPACE'
 # query = ''
 # print(path_of_disk)
@@ -39,7 +42,7 @@ else:
 # query = 'select dicom_instance_path from %s where %s'%(table_name,condition)
 # print(query)
 
-date = time.strftime("%Y%m%d", time.localtime())
+date = time.strftime("%Y%m%d%H%M", time.localtime())
 save_dir = os.path.join(root_dir,path_of_disk,'SELECTED_DATA_%s'%date)
 
 print(save_dir)

@@ -1,10 +1,11 @@
 window.onload = initPage;
 interval_object = null;
+var place = None;
 
 function initPage() {
     interval_object = setInterval("getDetails()", 200)
 
-    var place = document.getElementById("place").innerHTML
+    place = document.getElementById("place").innerHTML
     var query = document.getElementById("query").innerHTML
     request = createRequest();
     if (request == null) {
@@ -59,6 +60,15 @@ function displayDetails() {
                 request.open("GET", url, true);
                 request.onreadystatechange = do_nothing;
                 request.send(null);
+
+                unmountDiv = document.getElementById("unmount");
+                unmountDiv.innerHTML = "" +
+                    "<form enctype=\"multipart/form-data\" action=\"b6_download.php\"\n" +
+                    "          id=\"unmount\" method=\"post\">\n" +
+                    "是否要卸载磁盘: " + place + "<br>\n" +
+                    "<input type=\"hidden\" name=\"place\" value=\"" + place + "\">\n"
+                    "<input type=\"submit\" name=\"submit\">\n" +
+                    "</form>"
             }
         }
     }
