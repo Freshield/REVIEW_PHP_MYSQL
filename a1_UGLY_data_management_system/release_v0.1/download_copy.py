@@ -24,7 +24,11 @@ from script_helper import *
 
 print('here0')
 root_dir = '/media/freshield/'
+<<<<<<< HEAD
 data_root_dir = '/media/freshield/New_Data_2T/Data_From_Diff_Hospital_csv/'
+=======
+data_root_dir = '/media/freshield/DATA/TEST_CSV'
+>>>>>>> d5f536d3ec7ce06f9c1115f0ecffe84efe755026
 
 if len(sys.argv) == 3:
     path_of_disk = sys.argv[1]
